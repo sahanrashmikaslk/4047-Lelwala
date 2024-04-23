@@ -1,6 +1,6 @@
 # 4047-Lelwala
 
-This repository contains the source code for the project related to Assignment 2 (Writing a pipeline to Dockerize applications), for the DevOps Engineerieng Module.
+This repository contains the source code for the project related to Assignment 2 (Writing a pipeline to Dockerize applications), for the DevOps Engineering Module.
 
 ## Project Overview
 
@@ -45,15 +45,15 @@ To run the project locally or integrate it with Jenkins for automated Dockerizat
 
 1. Build Docker image:
    ```bash
-   docker build -t my-react-app .
+   docker build -t 4047-Lelwala .
    ```
 
 2. Run Docker container:
    ```bash
-   docker run -p 8080:80 my-react-app
+   docker run -p 3000:3000 4047-Lelwala
    ```
 
-3. Access the React app in your browser at `http://localhost:8080`.
+3. Access the React app in your browser at `http://localhost:3000.
 
 #### Automate with Jenkins
 
